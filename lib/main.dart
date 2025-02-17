@@ -1,3 +1,6 @@
+import 'package:class_practices/pages/expanceTrakingScreen.dart';
+import 'package:class_practices/pages/expanseApp.dart';
+import 'package:class_practices/pages/toDo.dart';
 import 'package:class_practices/pages/waterAppScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-    home: const WaterAppscreen(),
+    home: ToDo(),
     );
   }
 }
